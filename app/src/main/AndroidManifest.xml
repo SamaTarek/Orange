@@ -35,7 +35,7 @@
             android:value="AIzaSyAMwQ6reqHn6G-aDFKHG0dJp4MtsQSJNbk" />
 
         <activity
-            android:name=".Location"
+            android:name=".LocationActivity"
             android:label="@string/title_activity_location"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>

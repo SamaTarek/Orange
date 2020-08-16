@@ -19,15 +19,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-
-
-
     }
 
     @Override
     public void onClick(View v) {
         if(v==location)
-            startActivity(new Intent(this,Location.class));
+            startActivity(new Intent(this, LocationActivity.class));
     }
 
     }
